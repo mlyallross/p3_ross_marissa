@@ -8,3 +8,57 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+
+img.logo {
+	width: 25%;
+	padding: 1%;
+}
+
+img.img_nav {
+	display: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 4%;
+}
+
+nav {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Alhambra', sans-serif;
+}
+
+p {
+	font-family: 'Cronos-pro', sans-serif;
+}
+
+.h1_home, .h2_home {
+	text-align: center;
+	padding: 2%;
+}
+
+.h2_home {
+	margin-top: 4%;
+	font-size: 1.3rem;
+}
+
+.background {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+.mobile_hide {
+	display: none;
+}
