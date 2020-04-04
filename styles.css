@@ -8,6 +8,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+header {
+	background-color: #000000;
+}
+
 
 img.logo {
 	width: 25%;
@@ -19,26 +23,39 @@ img.img_nav {
 }
 
 nav ul li {
-	display: inline-block;
 	padding: 4%;
+	display: inline-block;
 }
 
 nav {
-	text-align: center;
 	margin-top: 10%;
 	margin-bottom: 5%;
+	text-align: center;
 }
 
 nav a {
 	text-decoration: none;
+	font-family: 'Cronos pro', sans-serif;
+	color: #000000;
 }
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Cronos pro', sans-serif;
+}
+
 
 h1, h2 {
 	font-family: 'Alhambra', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	padding: 4%;
 }
 
 p {
 	font-family: 'Cronos-pro', sans-serif;
+	color: #ffffff;
 }
 
 .h1_home, .h2_home {
@@ -59,6 +76,48 @@ img {
 	width: 100%;
 }
 
-.mobile_hide {
-	display: none;
+p {
+	padding: 2%;
 }
+
+button.darkmode-toggle--white {
+	z-index: 1;
+}
+
+.darkmode-ignore a {
+	color: #ffffff;
+}
+
+.darkmode-ignore img {
+	background-color: #ffffff;
+}
+
+
+
+.lower_nav {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 15%;
+}
+
+
+/******** START 600 PX MIN WIDTH MEDIA QUERY ******/
+@media (min-width: 600px) {
+
+	.about-image-grid, .biology-image-grid, .wings-image-grid {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+ 	figure {
+		width: 50%;
+	}
+
+}
+
+
+/******** END 600 PX MIN WIDTH MEDIA QUERY ******/
+
+/******** START 900 PX MIN WIDTH MEDIA QUERY ******/
+
+/******** END 900 PX MIN WIDTH MEDIA QUERY ******/

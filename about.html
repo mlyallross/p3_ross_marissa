@@ -17,25 +17,23 @@
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
-		<script src="/jquery-glow/src/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
 
-		<script src="/jquery-glow/src/jquery.color.js" type="text/javascript" charset="utf-8"></script>
-
-		<script src="/jquery-glow/src/jquery-glowing.js" type="text/javascript" charset="utf-8"></script>
 
 	</head>
 
-	<body>
+	<body class="darkmode--activated">
+		<div class="darkmode-background" style="background-color: #452aa1;"></div>
 
-    <header>
+    <header><span class="darkmode-ignore">
 			<a href="index.html"><img class="logo" src="images/avatar_logo.png" title="logo" alt="logo" /></a>
 				<nav>
 					<ul>
-						<li><a href="index.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />home<a></li>
-						<li><a href="biology.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />biology<a></li>
-						<li><a href="wings.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />wings<a></li>
+						<li><a href="index.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />home</a></li>
+						<li><a href="biology.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />biology</a></li>
+						<li><a href="wings.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />wings</a></li>
 					</ul>
 				</nav>
+			</span>
 		</header>
 
 		<img class="background" src="images/pandora2.jpg" title="pandora" alt="pandora" />
@@ -46,14 +44,15 @@
     <main class="main-about">
       <section class="about-image-grid">
         <figure><img src="images/ikran1.png" alt="image 1"></figure>
-				<figure class="mobile_hide"><img src="images/ikran2.png" alt="image 2"></figure>
-				<figure class="mobile_hide"><img src="images/ikran6.jpg" alt="image 3"></figure>
-				<figure class="mobile_hide"><img src="images/ikran7.jpg" alt="image 4"></figure>
-				<figure class="mobile_hide"><img src="images/ikran8.jpg" alt="image 5"></figure>
-				<figure class="mobile_hide"><img src="images/ikran11.jpg" alt="image 6"></figure>
-				<figure class="mobile_hide"><img src="images/ikran12.jpg" alt="image 7"></figure>
-				<figure class="mobile_hide"><img src="images/ikran15.jpg" alt="image 8"></figure>
+				<figure><img src="images/ikran2.png" alt="image 2"></figure>
+				<figure><img src="images/ikran6.jpg" alt="image 3"></figure>
+				<figure><img src="images/ikran7.jpg" alt="image 4"></figure>
+				<figure><img src="images/ikran8.jpg" alt="image 5"></figure>
+				<figure><img src="images/ikran11.jpg" alt="image 6"></figure>
+				<figure><img src="images/ikran12.jpg" alt="image 7"></figure>
+				<figure><img src="images/ikran15.jpg" alt="image 8"></figure>
       </section>
+
 
 			<section class="about-text-content">
 
@@ -66,7 +65,14 @@
 			</section>
     </main>
 
-	<footer></footer>
+		<footer>
+			<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+
+			<script>
+				new Darkmode().showWidget();
+			</script>
+		</footer>
+	<script type="text/javascript" src="js/main.js"></script>
 	</body>
 
 </html>

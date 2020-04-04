@@ -17,25 +17,22 @@
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
-		<script src="/jquery-glow/src/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
-
-		<script src="/jquery-glow/src/jquery.color.js" type="text/javascript" charset="utf-8"></script>
-
-		<script src="/jquery-glow/src/jquery-glowing.js" type="text/javascript" charset="utf-8"></script>
 
 	</head>
 
-	<body>
+	<body class="darkmode--activated">
+		<div class="darkmode-background" style="background-color: #452aa1;"></div>
 
-		<header>
+		<header><span class="darkmode-ignore">
 			<a href="index.html"><img class="logo" src="images/avatar_logo.png" title="logo" alt="logo" /></a>
 				<nav>
 					<ul>
-						<li><a href="index.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />home<a></li>
-						<li><a href="about.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />about<a></li>
-						<li><a href="biology.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />biology<a></li>
+						<li><a href="index.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />home</a></li>
+						<li><a href="about.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />about</a></li>
+						<li><a href="biology.html"><img class="img_nav" src="images/eywa" alt="eywa" title="eywa" />biology</a></li>
 					</ul>
 				</nav>
+			</span>
 		</header>
 
 		<img class="background" src="images/pandora4.jpg" title="pandora" alt="pandora" />
@@ -45,8 +42,9 @@
 		<main class="wings-about">
       <section class="wings-image-grid">
         <figure><img src="images/ikran3.jpg" alt="image 1"></figure>
-				<figure class="mobile_hide"><img src="images/ikran4.jpg" alt="image 2"></figure>
-				<figure class="mobile_hide"><img src="images/ikran5.jpg" alt="image 3"></figure>
+				<figure><img src="images/ikran4.jpg" alt="image 2"></figure>
+				<figure><img src="images/ikran5.jpg" alt="image 3"></figure>
+				<figure><img src="images/ikran16.jpg" alt="image 3"></figure>
       </section>
 
 			<section class="wings-text-content">
@@ -60,7 +58,16 @@
 			</section>
     </main>
 
-	<footer></footer>
+		<footer>
+			<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+
+			<script>
+			  new Darkmode().showWidget();
+			</script>
+	</footer>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
 	</body>
 
 </html>
