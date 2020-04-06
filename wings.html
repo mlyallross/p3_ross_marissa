@@ -17,6 +17,21 @@
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
+		<style>
+	  	#draggable {width: 512px; height: 288px;}
+	  </style>
+
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	  <script>
+	  $( function() {
+	    $( "#draggable" ).draggable();
+	  } );
+	  </script>
+
+
 
 	</head>
 
@@ -37,6 +52,14 @@
 		<img class="background" src="images/pandora4.jpg" title="pandora" alt="pandora" />
 
 		<h1 class="h1_wings">Ikran Wings</h1>
+
+		<section class="fly">
+			<div id="draggable" class="ui-widget-content">
+				<img src="images/ikran_fly.png" alt="fly" title="fly" />
+			</div>
+
+			<h3>make your Ikran fly to the Hallelujah Mountains!</h3>
+		</section>
 
 		<main class="wings-about">
       <section class="wings-image-grid">
