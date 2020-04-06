@@ -104,6 +104,24 @@ button.darkmode-toggle--white {
 /******** START 600 PX MIN WIDTH MEDIA QUERY ******/
 @media (min-width: 600px) {
 
+	header {
+		width: 100%;
+	}
+
+	nav {
+		margin-left: 110%;
+		text-align: center;
+	}
+
+	.lower_nav {
+		margin-left: 30%;
+	}
+
+	.img_home {
+		width: 100%;
+	}
+
+
 	.about-image-grid, .biology-image-grid, .wings-image-grid {
 		display: flex;
 		flex-wrap: wrap;
@@ -113,8 +131,15 @@ button.darkmode-toggle--white {
 		width: 50%;
 	}
 
-}
+	.ikran14 {
+		height: 175.812px;
+	}
 
+	.ikran16 {
+		height: 200.172px;
+	}
+
+}
 
 /******** END 600 PX MIN WIDTH MEDIA QUERY ******/
 
