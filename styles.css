@@ -14,7 +14,7 @@ header {
 
 
 img.logo {
-	width: 25%;
+	width: 49%;
 	padding: 1%;
 }
 
@@ -33,11 +33,7 @@ nav {
 	text-align: center;
 }
 
-nav a {
-	text-decoration: none;
-	font-family: 'Cronos pro', sans-serif;
-	color: #000000;
-}
+
 
 a {
 	color: #ffffff;
@@ -45,6 +41,9 @@ a {
 	font-family: 'Cronos pro', sans-serif;
 }
 
+.darkmode-ignore a {
+	color: #a85aaf;
+}
 
 h1, h2 {
 	font-family: 'Alhambra', sans-serif;
@@ -84,9 +83,6 @@ button.darkmode-toggle--white {
 	z-index: 1;
 }
 
-.darkmode-ignore a {
-	color: #ffffff;
-}
 
 .darkmode-ignore img {
 	background-color: #ffffff;
@@ -132,7 +128,7 @@ button.darkmode-toggle--white {
 	}
 
 	.ikran14 {
-		height: 175.812px;
+		height: 167.703px;
 	}
 
 	.ikran16 {
