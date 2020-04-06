@@ -20,3 +20,13 @@ var options = {
 
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
+//Change Mouse
+
+function setCursorByID(id,cursorStyle) {
+ var elem;
+ if (document.getElementById &&
+    (elem=document.getElementById(id)) ) {
+  if (elem.style) elem.style.cursor=cursorStyle;
+ }
+}

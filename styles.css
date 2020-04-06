@@ -21,11 +21,11 @@ img.logo {
 
 
 nav ul li {
-	padding: 4%;
-	display: inline-block;
+	padding: 3%;
+	display: block;
 }
 
-nav {
+ nav {
 	margin-top: 10%;
 	margin-bottom: 5%;
 	text-align: center;
@@ -37,7 +37,59 @@ a {
 	font-family: 'Alhambra', sans-serif;
 }
 
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
 
+/** NAV CSS **/
+#nav-1 {
+  background: #000000;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  text-decoration: none;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+/** NAV CSS **/
+
+/** CSS IMG HOVER EFFECTS **/
+.fadein img{
+opacity:0.5;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:1;
+transition: 1s ease;
+}
+
+.grow a {
+	margin-top: 4%;
+}
+
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(.9);
+-ms-transform: scale(.9);
+transform: scale(.9);
+transition: 1s ease;
+}
+
+/** CSS IMG HOVER EFFECTS **/
 
 h1, h2 {
 	font-family: 'Alhambra', sans-serif;
@@ -200,6 +252,10 @@ footer p {
 		height: 251.844px;
 	}
 
+	.ikran16 {
+		height: 299.992px;
+	}
+
 	p {
 		font-size: 1.3rem;
 	}
@@ -233,6 +289,7 @@ footer p {
 	.ikran16 {
 		height: 341.156px;
 	}
+
 
 }
 /******** END 1024 PX MIN WIDTH MEDIA QUERY ******/
