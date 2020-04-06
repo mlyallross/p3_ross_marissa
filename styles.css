@@ -14,13 +14,11 @@ header {
 
 
 img.logo {
-	width: 49%;
+	width: 40%;
 	padding: 1%;
 }
 
-img.img_nav {
-	display: none;
-}
+
 
 nav ul li {
 	padding: 4%;
@@ -33,17 +31,13 @@ nav {
 	text-align: center;
 }
 
-
-
 a {
-	color: #ffffff;
+	color: #4bc526;
 	text-decoration: none;
-	font-family: 'Cronos pro', sans-serif;
+	font-family: 'Alhambra', sans-serif;
 }
 
-.darkmode-ignore a {
-	color: #a85aaf;
-}
+
 
 h1, h2 {
 	font-family: 'Alhambra', sans-serif;
@@ -69,6 +63,7 @@ p {
 
 .background {
 	width: 100%;
+	margin-top: 8%;
 }
 
 img {
@@ -84,17 +79,21 @@ button.darkmode-toggle--white {
 }
 
 
-.darkmode-ignore img {
-	background-color: #ffffff;
-}
-
-
-
 .lower_nav {
 	text-align: center;
 	font-size: 1.5rem;
 	margin-top: 15%;
 }
+
+footer p {
+	padding: 10%;
+	margin-top: 8%;
+	text-align: center;
+	color: #000000;
+	font-family: 'Alhambra';
+	font-size: 2rem;
+}
+
 
 
 /******** START 600 PX MIN WIDTH MEDIA QUERY ******/
@@ -102,11 +101,6 @@ button.darkmode-toggle--white {
 
 	header {
 		width: 100%;
-	}
-
-	nav {
-		margin-left: 110%;
-		text-align: center;
 	}
 
 	.lower_nav {
